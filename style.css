@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(218, 200, 43);
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+    background: rgb(0, 162, 255);
+    color: rgb(105, 77, 77);
+}
+#m-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 650px;
+}
+.header-text{
+    font-size: 55px;
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+#cont-div{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    background: chocolate;
+    color: crimson;
+    border-radius: 20px;
+    align-items: center;
+}
+#cont-div:hover{
+    background: coral;
+    color: darkgrey;
+}
+.cart-div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(254, 255, 255);
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+#main-div{
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+#skill div div{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    color:black;
+    border: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skill div div:hover{
+    color: white;
+    border: white solid 3px;
+    width: 230px;
+    height: 60px;
+    transition-duration: 2s;
+}
+.cart-div p{
+    width: 60px;
+}
+@media (max-width: 650px){
+    .img{
+        width: 85px;
+        height: 80px;
+    }
+    div{
+        color: rgb(231, 174, 17);
+    }
+.main-div:nth-child(3n){
+    width: 2px;
+    height: 80px;
+}
+.cart-div h1{
+    width: 5px;
+}
